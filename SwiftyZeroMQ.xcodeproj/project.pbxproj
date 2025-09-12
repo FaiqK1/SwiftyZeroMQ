@@ -66,6 +66,7 @@
 		04E06A5F1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04E06A601DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */; };
 		E925E1A91F04049500BEEC3C /* ZMQPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925E1A81F04049500BEEC3C /* ZMQPatternsTests.swift */; };
+		EB7DFFF62E7472990078EE75 /* libzmq-ios-simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7DFFF52E7472990078EE75 /* libzmq-ios-simulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyZeroMQ.h; sourceTree = "<group>"; };
 		04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyZeroMQ.swift; sourceTree = "<group>"; };
 		E925E1A81F04049500BEEC3C /* ZMQPatternsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMQPatternsTests.swift; sourceTree = "<group>"; };
+		EB7DFFF52E7472990078EE75 /* libzmq-ios-simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libzmq-ios-simulator.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042AEE9C1DDB09FB0019D27B /* libzmq-ios.a in Frameworks */,
+				EB7DFFF62E7472990078EE75 /* libzmq-ios-simulator.a in Frameworks */,
 				042181391DD89E3100F8922C /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +200,7 @@
 		042AEE971DDB09D20019D27B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				EB7DFFF52E7472990078EE75 /* libzmq-ios-simulator.a */,
 				042AEE981DDB09FB0019D27B /* libzmq-ios.a */,
 				042AEE991DDB09FB0019D27B /* libzmq-macos.a */,
 				042AEE9A1DDB09FB0019D27B /* libzmq-tvos.a */,
@@ -1027,6 +1031,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.azawawi.SwiftyZeroMQ;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -1054,6 +1059,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.azawawi.SwiftyZeroMQ;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
