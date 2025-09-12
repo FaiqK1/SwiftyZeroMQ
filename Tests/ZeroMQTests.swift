@@ -11,40 +11,40 @@ import XCTest
 class ZeroMQTests: XCTestCase {
 
     func testVersion() {
-        let (major, minor, patch, versionString) = SwiftyZeroMQ.version
+        let (major, minor, patch, versionString) = SZeroMQ.version
         XCTAssertTrue(major == 4, "Major version is 4")
         XCTAssertTrue(minor == 2, "Minor version is 2")
         XCTAssertTrue(patch == 2, "Patch version is 2")
         XCTAssertTrue(versionString == "\(major).\(minor).\(patch)")
 
-        let frameworkVersion = SwiftyZeroMQ.frameworkVersion
+        let frameworkVersion = SZeroMQ.frameworkVersion
         let regex = "^\\d+\\.\\d+\\.\\d+$"
         XCTAssertTrue(frameworkVersion.range(of: regex, options : .regularExpression) != nil)
     }
 
     func testHas() {
-        let _ = SwiftyZeroMQ.has(.ipc)
+        let _ = SZeroMQ.has(.ipc)
         XCTAssertTrue(true, ".ipc works")
 
-        let _ = SwiftyZeroMQ.has(.pgm)
+        let _ = SZeroMQ.has(.pgm)
         XCTAssertTrue(true, ".pgm works")
 
-        let _ = SwiftyZeroMQ.has(.tipc)
+        let _ = SZeroMQ.has(.tipc)
         XCTAssertTrue(true, ".tipc works")
 
-        let _ = SwiftyZeroMQ.has(.norm)
+        let _ = SZeroMQ.has(.norm)
         XCTAssertTrue(true, ".norm works")
 
-        let _ = SwiftyZeroMQ.has(.curve)
+        let _ = SZeroMQ.has(.curve)
         XCTAssertTrue(true, ".curve works")
 
-        let _ = SwiftyZeroMQ.has(.gssapi)
+        let _ = SZeroMQ.has(.gssapi)
         XCTAssertTrue(true, ".gssapi works")
     }
 
     func testContext() {
         do {
-            let context = try SwiftyZeroMQ.Context()
+            let context = try SZeroMQ.Context()
             XCTAssertTrue(true, "Context created")
             XCTAssertTrue(context.handle != nil, "socket.handle is not nil")
 
@@ -100,8 +100,8 @@ class ZeroMQTests: XCTestCase {
             XCTAssertTrue(true, "Context setThreadSchedulingPolicy works")
 
             // Hashable
-            let c1 = try SwiftyZeroMQ.Context()
-            let c2 = try SwiftyZeroMQ.Context()
+            let c1 = try SZeroMQ.Context()
+            let c2 = try SZeroMQ.Context()
             let contextMap = [ c1: "c1", c2: "c2"]
             XCTAssertTrue(contextMap[c1] == "c1", "Correct string value for c1")
             XCTAssertTrue(contextMap[c2] == "c2", "Correct string value for c2")
@@ -114,19 +114,19 @@ class ZeroMQTests: XCTestCase {
     func testSocket() {
         do {
             // Test creation of all socket types
-            let socketTypes : [SwiftyZeroMQ.SocketType] = [
+            let socketTypes : [SZeroMQ.SocketType] = [
                 .request, .reply, .router, .dealer, .publish, .subscribe,
                 .xpublish, .xsubscribe, .push, .pull, .pair, .stream
             ]
             for socketType in socketTypes {
-                let context = try SwiftyZeroMQ.Context()
+                let context = try SZeroMQ.Context()
                 let socket = try context.socket(socketType)
                 XCTAssertTrue(socket.handle != nil, "socket.handle is not nil")
                 XCTAssertTrue(true, "\(socketType) socket created")
             }
 
             // Hashable
-            let context = try SwiftyZeroMQ.Context()
+            let context = try SZeroMQ.Context()
             let s1      = try context.socket(.request)
             let s2      = try context.socket(.request)
             let socketMap = [ s1: "s1", s2: "s2"]
@@ -148,7 +148,7 @@ class ZeroMQTests: XCTestCase {
             let textToBeSent = "Hello world"
 
             // Request socket
-            let context      = try SwiftyZeroMQ.Context()
+            let context      = try SZeroMQ.Context()
             
             // Reply socket (goes first
             let replier      = try context.socket(.reply)

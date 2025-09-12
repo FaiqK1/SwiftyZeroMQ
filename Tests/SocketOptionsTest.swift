@@ -12,7 +12,7 @@ class SocketOptionsTest: XCTestCase {
     private let endpoint = "tcp://127.0.0.1:5550"
 
     func testSubscribe() throws {
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         let pub     = try context.socket(.publish)
         let sub1    = try context.socket(.subscribe)
         let sub2    = try context.socket(.subscribe)
@@ -34,7 +34,7 @@ class SocketOptionsTest: XCTestCase {
         // Brief wait to let everything hook up
         usleep(250)
 
-        let poller = SwiftyZeroMQ.Poller()
+        let poller = SZeroMQ.Poller()
         try poller.register(socket: sub1, flags: .pollIn)
         try poller.register(socket: sub2, flags: .pollIn)
         try poller.register(socket: sub3, flags: .pollIn)
@@ -46,9 +46,9 @@ class SocketOptionsTest: XCTestCase {
         usleep(100)
 
         var socks = try poller.poll(timeout: 1000)
-        XCTAssertEqual(socks[sub1], SwiftyZeroMQ.PollFlags.none)
-        XCTAssertEqual(socks[sub2], SwiftyZeroMQ.PollFlags.pollIn)
-        XCTAssertEqual(socks[sub3], SwiftyZeroMQ.PollFlags.none)
+        XCTAssertEqual(socks[sub1], SZeroMQ.PollFlags.none)
+        XCTAssertEqual(socks[sub2], SZeroMQ.PollFlags.pollIn)
+        XCTAssertEqual(socks[sub3], SZeroMQ.PollFlags.none)
 
         try _ = sub2.recv(options: .dontWait)
 
@@ -59,13 +59,13 @@ class SocketOptionsTest: XCTestCase {
         usleep(100)
 
         socks = try poller.poll(timeout: 1000)
-        XCTAssertEqual(socks[sub1], SwiftyZeroMQ.PollFlags.none)
-        XCTAssertEqual(socks[sub2], SwiftyZeroMQ.PollFlags.pollIn)
-        XCTAssertEqual(socks[sub3], SwiftyZeroMQ.PollFlags.pollIn)
+        XCTAssertEqual(socks[sub1], SZeroMQ.PollFlags.none)
+        XCTAssertEqual(socks[sub2], SZeroMQ.PollFlags.pollIn)
+        XCTAssertEqual(socks[sub3], SZeroMQ.PollFlags.pollIn)
     }
 
     func testIntegerOptions() throws {
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         let socket  = try context.socket(.publish)
 
         try socket.setAffinity(1)

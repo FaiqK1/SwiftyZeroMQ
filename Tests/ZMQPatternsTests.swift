@@ -25,7 +25,7 @@ class ZMQPatternsTests: XCTestCase {
         super.tearDown()
     }
     func testSecurePushPullSocket() throws {
-        if(!SwiftyZeroMQ.has(.curve)) {
+        if(!SZeroMQ.has(.curve)) {
             XCTFail("Cannot test CURVE as SwiftyZeroMQ does not have CURVE enabled")
         }
         //we will compare these two in our assert at the end
@@ -33,7 +33,7 @@ class ZMQPatternsTests: XCTestCase {
         var messageReceived = ""
         
         
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         let subSocket = try context.socket(.pull)
         //    Generated keys for the client
         let (generated_public_key, generated_private_key) = try subSocket.curveKeyPair()
@@ -60,7 +60,7 @@ class ZMQPatternsTests: XCTestCase {
         //    we will compare these in our XCTAssert
         let messageToSend = "YORE MA"
         var messageReceived = ""
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         
         //do sub socket first
         let subSocket = try context.socket(.subscribe)
@@ -91,7 +91,7 @@ class ZMQPatternsTests: XCTestCase {
         
         
         
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         
         //do sub socket first
         let subSocket = try context.socket(.subscribe)
@@ -128,7 +128,7 @@ class ZMQPatternsTests: XCTestCase {
         var messageReceived = ""
         
         //context
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         //router
         let routerSocket = try context.socket(.router)
         try routerSocket.bind(endpoint)
@@ -151,7 +151,7 @@ class ZMQPatternsTests: XCTestCase {
     }
     
     public func testSecureDealerRouter() throws {
-        if(!SwiftyZeroMQ.has(.curve)) {
+        if(!SZeroMQ.has(.curve)) {
             XCTFail("Cannot test CURVE as SwiftyZeroMQ does not have CURVE enabled")
         }
         let messageToSend = "O HAI"
@@ -161,7 +161,7 @@ class ZMQPatternsTests: XCTestCase {
         var messageReceived = ""
         
         //context
-        let context = try SwiftyZeroMQ.Context()
+        let context = try SZeroMQ.Context()
         //router
         let routerSocket = try context.socket(.router)
         //set key
