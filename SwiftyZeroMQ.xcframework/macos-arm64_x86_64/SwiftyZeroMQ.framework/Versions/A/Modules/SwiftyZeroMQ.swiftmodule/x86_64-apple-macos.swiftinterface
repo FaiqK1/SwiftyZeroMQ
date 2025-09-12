@@ -8,7 +8,7 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension SwiftyZeroMQ.SwiftyZeroMQ {
+extension SwiftyZeroMQ.SZeroMQ {
   open class Context : Swift.Hashable {
     public var handle: Swift.UnsafeMutableRawPointer?
     required public init() throws
@@ -16,7 +16,7 @@ extension SwiftyZeroMQ.SwiftyZeroMQ {
     public func shutdown() throws
     public func terminate() throws
     public func close() throws
-    public func socket(_ type: SwiftyZeroMQ.SwiftyZeroMQ.SocketType) throws -> SwiftyZeroMQ.SwiftyZeroMQ.Socket
+    public func socket(_ type: SwiftyZeroMQ.SZeroMQ.SocketType) throws -> SwiftyZeroMQ.SZeroMQ.Socket
     public func isBlocky() throws -> Swift.Bool
     public func setBlocky(_ enabled: Swift.Bool = true) throws
     public func getIOThreads() throws -> Swift.Int
@@ -33,50 +33,50 @@ extension SwiftyZeroMQ.SwiftyZeroMQ {
     public var hashValue: Swift.Int {
       get
     }
-    public static func == (lhs: SwiftyZeroMQ.SwiftyZeroMQ.Context, rhs: SwiftyZeroMQ.SwiftyZeroMQ.Context) -> Swift.Bool
+    public static func == (lhs: SwiftyZeroMQ.SZeroMQ.Context, rhs: SwiftyZeroMQ.SZeroMQ.Context) -> Swift.Bool
     open func hash(into hasher: inout Swift.Hasher)
   }
 }
-extension SwiftyZeroMQ.SwiftyZeroMQ {
+extension SwiftyZeroMQ.SZeroMQ {
   public struct PollFlags : Swift.OptionSet {
     public var rawValue: Swift.Int32
     public init(rawValue: Swift.Int32)
-    public static let pollIn: SwiftyZeroMQ.SwiftyZeroMQ.PollFlags
-    public static let pollOut: SwiftyZeroMQ.SwiftyZeroMQ.PollFlags
-    public static let pollErr: SwiftyZeroMQ.SwiftyZeroMQ.PollFlags
-    public static let none: SwiftyZeroMQ.SwiftyZeroMQ.PollFlags
-    public typealias ArrayLiteralElement = SwiftyZeroMQ.SwiftyZeroMQ.PollFlags
-    public typealias Element = SwiftyZeroMQ.SwiftyZeroMQ.PollFlags
+    public static let pollIn: SwiftyZeroMQ.SZeroMQ.PollFlags
+    public static let pollOut: SwiftyZeroMQ.SZeroMQ.PollFlags
+    public static let pollErr: SwiftyZeroMQ.SZeroMQ.PollFlags
+    public static let none: SwiftyZeroMQ.SZeroMQ.PollFlags
+    public typealias ArrayLiteralElement = SwiftyZeroMQ.SZeroMQ.PollFlags
+    public typealias Element = SwiftyZeroMQ.SZeroMQ.PollFlags
     public typealias RawValue = Swift.Int32
   }
   public class Poller {
     public init()
-    public func register(socket: SwiftyZeroMQ.SwiftyZeroMQ.Socket, flags: SwiftyZeroMQ.SwiftyZeroMQ.PollFlags = [.pollIn, .pollOut]) throws
-    public func modify(socket: SwiftyZeroMQ.SwiftyZeroMQ.Socket, flags: SwiftyZeroMQ.SwiftyZeroMQ.PollFlags = [.pollIn, .pollOut]) throws
-    public func unregister(socket: SwiftyZeroMQ.SwiftyZeroMQ.Socket) throws
-    public func poll(timeout: Foundation.TimeInterval? = nil) throws -> [SwiftyZeroMQ.SwiftyZeroMQ.Socket : SwiftyZeroMQ.SwiftyZeroMQ.PollFlags]
+    public func register(socket: SwiftyZeroMQ.SZeroMQ.Socket, flags: SwiftyZeroMQ.SZeroMQ.PollFlags = [.pollIn, .pollOut]) throws
+    public func modify(socket: SwiftyZeroMQ.SZeroMQ.Socket, flags: SwiftyZeroMQ.SZeroMQ.PollFlags = [.pollIn, .pollOut]) throws
+    public func unregister(socket: SwiftyZeroMQ.SZeroMQ.Socket) throws
+    public func poll(timeout: Foundation.TimeInterval? = nil) throws -> [SwiftyZeroMQ.SZeroMQ.Socket : SwiftyZeroMQ.SZeroMQ.PollFlags]
     @objc deinit
   }
 }
-extension SwiftyZeroMQ.SwiftyZeroMQ {
+extension SwiftyZeroMQ.SZeroMQ {
   open class Socket : Swift.Hashable {
     public var handle: Swift.UnsafeMutableRawPointer?
-    public init(context: SwiftyZeroMQ.SwiftyZeroMQ.Context, type: SwiftyZeroMQ.SwiftyZeroMQ.SocketType) throws
+    public init(context: SwiftyZeroMQ.SZeroMQ.Context, type: SwiftyZeroMQ.SZeroMQ.SocketType) throws
     @objc deinit
     public func connect(_ endpoint: Swift.String) throws
     public func close() throws
     public func bind(_ endpoint: Swift.String) throws
     public func unbind(_ endpoint: Swift.String) throws
-    public func send(string: Swift.String, options: SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption = .none) throws
-    public func send(data: Foundation.Data, options: SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption = .none) throws
+    public func send(string: Swift.String, options: SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption = .none) throws
+    public func send(data: Foundation.Data, options: SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption = .none) throws
     public func sendMultipart(parts: Swift.Array<Foundation.Data>) throws
     public func recvMultipart() throws -> Swift.Array<Foundation.Data>
-    public func recvData(bufferLength: Swift.Int = 256, options: SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption = .none) throws -> Foundation.Data
-    public func recv(bufferLength: Swift.Int = 256, options: SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption = .none) throws -> Swift.String?
+    public func recvData(bufferLength: Swift.Int = 256, options: SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption = .none) throws -> Foundation.Data
+    public func recv(bufferLength: Swift.Int = 256, options: SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption = .none) throws -> Swift.String?
     public var hashValue: Swift.Int {
       get
     }
-    public static func == (lhs: SwiftyZeroMQ.SwiftyZeroMQ.Socket, rhs: SwiftyZeroMQ.SwiftyZeroMQ.Socket) -> Swift.Bool
+    public static func == (lhs: SwiftyZeroMQ.SZeroMQ.Socket, rhs: SwiftyZeroMQ.SZeroMQ.Socket) -> Swift.Bool
     public func setSubscribe(_ value: Swift.String?) throws
     public func setUnsubscribe(_ value: Swift.String?) throws
     public func setAffinity(_ value: Swift.UInt64) throws
@@ -111,7 +111,7 @@ extension SwiftyZeroMQ.SwiftyZeroMQ {
     open func hash(into hasher: inout Swift.Hasher)
   }
 }
-extension SwiftyZeroMQ.SwiftyZeroMQ {
+extension SwiftyZeroMQ.SZeroMQ {
   public enum SocketSendRecvOption : Swift.Int32 {
     case none
     case dontWait
@@ -125,7 +125,7 @@ extension SwiftyZeroMQ.SwiftyZeroMQ {
     public typealias RawValue = Swift.Int32
   }
 }
-extension SwiftyZeroMQ.SwiftyZeroMQ {
+extension SwiftyZeroMQ.SZeroMQ {
   public enum SocketType : Swift.Int32 {
     case request
     case reply
@@ -146,7 +146,7 @@ extension SwiftyZeroMQ.SwiftyZeroMQ {
     public typealias RawValue = Swift.Int32
   }
 }
-public struct SwiftyZeroMQ {
+public struct SZeroMQ {
   public enum Capability : Swift.String {
     case ipc
     case pgm
@@ -166,29 +166,29 @@ public struct SwiftyZeroMQ {
   public static var frameworkVersion: Swift.String {
     get
   }
-  public static func has(_ capability: SwiftyZeroMQ.SwiftyZeroMQ.Capability) -> Swift.Bool
-  public static func proxy(frontend: SwiftyZeroMQ.SwiftyZeroMQ.Socket, backend: SwiftyZeroMQ.SwiftyZeroMQ.Socket, capture: SwiftyZeroMQ.SwiftyZeroMQ.Socket? = nil) throws
+  public static func has(_ capability: SwiftyZeroMQ.SZeroMQ.Capability) -> Swift.Bool
+  public static func proxy(frontend: SwiftyZeroMQ.SZeroMQ.Socket, backend: SwiftyZeroMQ.SZeroMQ.Socket, capture: SwiftyZeroMQ.SZeroMQ.Socket? = nil) throws
 }
-extension SwiftyZeroMQ.SwiftyZeroMQ {
+extension SwiftyZeroMQ.SZeroMQ {
   public struct ZeroMQError : Swift.Error, Swift.CustomStringConvertible {
     public let description: Swift.String
-    public static var last: SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError {
+    public static var last: SwiftyZeroMQ.SZeroMQ.ZeroMQError {
       get
     }
-    public static var invalidOption: SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError {
+    public static var invalidOption: SwiftyZeroMQ.SZeroMQ.ZeroMQError {
       get
     }
-    public static var unimplemented: SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError {
+    public static var unimplemented: SwiftyZeroMQ.SZeroMQ.ZeroMQError {
       get
     }
   }
 }
-extension SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption : Swift.Equatable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption : Swift.Hashable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption : Swift.RawRepresentable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.SocketType : Swift.Equatable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.SocketType : Swift.Hashable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.SocketType : Swift.RawRepresentable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.Capability : Swift.Equatable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.Capability : Swift.Hashable {}
-extension SwiftyZeroMQ.SwiftyZeroMQ.Capability : Swift.RawRepresentable {}
+extension SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption : Swift.Equatable {}
+extension SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption : Swift.Hashable {}
+extension SwiftyZeroMQ.SZeroMQ.SocketSendRecvOption : Swift.RawRepresentable {}
+extension SwiftyZeroMQ.SZeroMQ.SocketType : Swift.Equatable {}
+extension SwiftyZeroMQ.SZeroMQ.SocketType : Swift.Hashable {}
+extension SwiftyZeroMQ.SZeroMQ.SocketType : Swift.RawRepresentable {}
+extension SwiftyZeroMQ.SZeroMQ.Capability : Swift.Equatable {}
+extension SwiftyZeroMQ.SZeroMQ.Capability : Swift.Hashable {}
+extension SwiftyZeroMQ.SZeroMQ.Capability : Swift.RawRepresentable {}

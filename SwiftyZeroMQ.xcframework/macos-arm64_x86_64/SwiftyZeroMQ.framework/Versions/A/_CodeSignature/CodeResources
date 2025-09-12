@@ -48,110 +48,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fmHx3ERlPcnDytTtmSuxOj/SBYU=
+			Mi//LXdrGUk84INz5jQ/RR57E+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			z98WAh1eSF4AtcWMRpdNt7TMlaz0tlhEgkMMzPY4ffY=
+			Yd8uLRXEm1zApifAN3/9lBlyLBzAWTW6SSyZofXeNK4=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lqdRVSRj26vhU9XwD8JMvLaAk+c=
+			1/RoNEmuNkIn/w3nbvrDlR8MNyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Jqwt5Tq/9SFz4xZ9gjvKZXIab9uZiS6Jk7cslvL9LM=
+			Oni6+RRxpzMvY2LCafZN0OTjGgWWLfwxFMGZJpKYCJY=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AIfh4xt3YjfryLKpZAUPwqAGrmU=
+			MPcQhQmjZ34YsLdmYOz8HX9548Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			6W9LREvS/oR95tKKr/YtelGD8+UQGAW8AsjOu5oDTwI=
+			s0dd5cFtEaCZUYY1LloL/Le0rH0TV4DciLRUsn8Rm/E=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lqdRVSRj26vhU9XwD8JMvLaAk+c=
+			1/RoNEmuNkIn/w3nbvrDlR8MNyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Jqwt5Tq/9SFz4xZ9gjvKZXIab9uZiS6Jk7cslvL9LM=
+			Oni6+RRxpzMvY2LCafZN0OTjGgWWLfwxFMGZJpKYCJY=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5iANE4PKOTVRwoIRkQvDxMp+1Q8=
+			Wf4sTyu6kMPMdFtecC8cMYzpY1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			VNkyubnVUEku/8azGn7RZNcreJlF6nNm6f7gFAlCg7E=
+			gsaY2i7/NiakhEF17YOhWRqWFlim0bU1PlyowfxDs4Y=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fmHx3ERlPcnDytTtmSuxOj/SBYU=
+			Mi//LXdrGUk84INz5jQ/RR57E+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			z98WAh1eSF4AtcWMRpdNt7TMlaz0tlhEgkMMzPY4ffY=
+			Yd8uLRXEm1zApifAN3/9lBlyLBzAWTW6SSyZofXeNK4=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PTNdEj52YsZg5ArMZ0Qpbb7f7zc=
+			Gj5ImtNTJVrsnKN6YVu1Rup56G8=
 			</data>
 			<key>hash2</key>
 			<data>
-			rYHO8PbHqOBL/cx0hfkrsBEZNDcYVAmZx9mzT/y70Qs=
+			E3sjM3fPl9tpyuVTtlPY+oqiG1Doi/GNOtM5cB/JN1Q=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6m+5nmjVWBDDw14+tRr0TILqYl8=
+			uiL0hv7F1JMf0b8yJ9V7OlQE5dY=
 			</data>
 			<key>hash2</key>
 			<data>
-			lWKqm0l2woAGvpbFwO9kUNJp9ega2o7M5nTmymgO6qg=
+			4QhVexQdYpMBcz5XbWoksNHUj0jpBwtxRlbaKfyY/cc=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PTNdEj52YsZg5ArMZ0Qpbb7f7zc=
+			Gj5ImtNTJVrsnKN6YVu1Rup56G8=
 			</data>
 			<key>hash2</key>
 			<data>
-			rYHO8PbHqOBL/cx0hfkrsBEZNDcYVAmZx9mzT/y70Qs=
+			E3sjM3fPl9tpyuVTtlPY+oqiG1Doi/GNOtM5cB/JN1Q=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XUoLMElfOPhAKg4vadxYWOwtCQ8=
+			grQX7pPIhF68kGOPUMzRjUGeXp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nLvDvDqWOFsXIBxDVRaFQAdWYNrf0lA6DfZJhrqtCjY=
+			fz6ItASGUJ4f68n4JgynZSMe6DR/6bWTpNOiAfzniss=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
