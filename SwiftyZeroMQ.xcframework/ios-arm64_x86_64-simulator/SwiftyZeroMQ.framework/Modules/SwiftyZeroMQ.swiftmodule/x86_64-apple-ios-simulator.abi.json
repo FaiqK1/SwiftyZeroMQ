@@ -1,0 +1,4785 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SwiftyZeroMQ",
+    "printedName": "SwiftyZeroMQ",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftyZeroMQ",
+        "printedName": "SwiftyZeroMQ",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Capability",
+            "printedName": "Capability",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "ipc",
+                "printedName": "ipc",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Capability",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                            "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO3ipcyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO3ipcyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "pgm",
+                "printedName": "pgm",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Capability",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                            "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO3pgmyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO3pgmyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "tipc",
+                "printedName": "tipc",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Capability",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                            "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO4tipcyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO4tipcyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "norm",
+                "printedName": "norm",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Capability",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                            "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO4normyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO4normyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "curve",
+                "printedName": "curve",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Capability",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                            "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO5curveyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO5curveyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "gssapi",
+                "printedName": "gssapi",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Capability",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                            "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO6gssapiyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO6gssapiyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Capability",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                        "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO8rawValueADSgSS_tcfc",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO8rawValueADSgSS_tcfc",
+                "moduleName": "SwiftyZeroMQ",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO8rawValueSSvp",
+                "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO8rawValueSSvp",
+                "moduleName": "SwiftyZeroMQ",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV10CapabilityO8rawValueSSvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO8rawValueSSvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12SwiftyZeroMQAAV10CapabilityO",
+            "mangledName": "$s12SwiftyZeroMQAAV10CapabilityO",
+            "moduleName": "SwiftyZeroMQ",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(major: Swift.Int, minor: Swift.Int, patch: Swift.Int, versionString: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SwiftyZeroMQAAV7versionSi5major_Si5minorSi5patchSS0D6StringtvpZ",
+            "mangledName": "$s12SwiftyZeroMQAAV7versionSi5major_Si5minorSi5patchSS0D6StringtvpZ",
+            "moduleName": "SwiftyZeroMQ",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(major: Swift.Int, minor: Swift.Int, patch: Swift.Int, versionString: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SwiftyZeroMQAAV7versionSi5major_Si5minorSi5patchSS0D6StringtvgZ",
+                "mangledName": "$s12SwiftyZeroMQAAV7versionSi5major_Si5minorSi5patchSS0D6StringtvgZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frameworkVersion",
+            "printedName": "frameworkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SwiftyZeroMQAAV16frameworkVersionSSvpZ",
+            "mangledName": "$s12SwiftyZeroMQAAV16frameworkVersionSSvpZ",
+            "moduleName": "SwiftyZeroMQ",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SwiftyZeroMQAAV16frameworkVersionSSvgZ",
+                "mangledName": "$s12SwiftyZeroMQAAV16frameworkVersionSSvgZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "has",
+            "printedName": "has(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Capability",
+                "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Capability",
+                "usr": "s:12SwiftyZeroMQAAV10CapabilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SwiftyZeroMQAAV3hasySbAB10CapabilityOFZ",
+            "mangledName": "$s12SwiftyZeroMQAAV3hasySbAB10CapabilityOFZ",
+            "moduleName": "SwiftyZeroMQ",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "proxy",
+            "printedName": "proxy(frontend:backend:capture:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Socket",
+                "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Socket",
+                "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SwiftyZeroMQAAV5proxy8frontend7backend7captureyAB6SocketC_A2HSgtKFZ",
+            "mangledName": "$s12SwiftyZeroMQAAV5proxy8frontend7backend7captureyAB6SocketC_A2HSgtKFZ",
+            "moduleName": "SwiftyZeroMQ",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Context",
+            "printedName": "Context",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "handle",
+                "printedName": "handle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC6handleSvSgvp",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC6handleSvSgvp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC6handleSvSgvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV7ContextC6handleSvSgvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC6handleSvSgvs",
+                    "mangledName": "$s12SwiftyZeroMQAAV7ContextC6handleSvSgvs",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC6handleSvSgvM",
+                    "mangledName": "$s12SwiftyZeroMQAAV7ContextC6handleSvSgvM",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Context",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV7ContextCADyKcfc",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextCADyKcfc",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "Required",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "shutdown",
+                "printedName": "shutdown()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC8shutdownyyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC8shutdownyyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "terminate",
+                "printedName": "terminate()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC9terminateyyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC9terminateyyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "close",
+                "printedName": "close()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC5closeyyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC5closeyyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "socket",
+                "printedName": "socket(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketType",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC6socketyAB6SocketCAB0F4TypeOKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC6socketyAB6SocketCAB0F4TypeOKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "isBlocky",
+                "printedName": "isBlocky()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC8isBlockySbyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC8isBlockySbyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setBlocky",
+                "printedName": "setBlocky(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC9setBlockyyySbKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC9setBlockyyySbKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getIOThreads",
+                "printedName": "getIOThreads()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC12getIOThreadsSiyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC12getIOThreadsSiyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setIOThreads",
+                "printedName": "setIOThreads(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC12setIOThreadsyySiKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC12setIOThreadsyySiKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setThreadSchedulingPolicy",
+                "printedName": "setThreadSchedulingPolicy(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC25setThreadSchedulingPolicyyySiKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC25setThreadSchedulingPolicyyySiKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setThreadPriority",
+                "printedName": "setThreadPriority(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC17setThreadPriorityyySiKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC17setThreadPriorityyySiKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getMaxMessageSize",
+                "printedName": "getMaxMessageSize()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC17getMaxMessageSizeSiyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC17getMaxMessageSizeSiyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMaxMessageSize",
+                "printedName": "setMaxMessageSize(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC17setMaxMessageSizeyySiKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC17setMaxMessageSizeyySiKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getMaxSockets",
+                "printedName": "getMaxSockets()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC13getMaxSocketsSiyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC13getMaxSocketsSiyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMaxSockets",
+                "printedName": "setMaxSockets(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC13setMaxSocketsyySiKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC13setMaxSocketsyySiKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "isIPV6Enabled",
+                "printedName": "isIPV6Enabled()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC13isIPV6EnabledSbyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC13isIPV6EnabledSbyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setIPV6Enabled",
+                "printedName": "setIPV6Enabled(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC14setIPV6EnabledyySbKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC14setIPV6EnabledyySbKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getSocketLimit",
+                "printedName": "getSocketLimit()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC14getSocketLimitSiyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC14getSocketLimitSiyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC9hashValueSivp",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC9hashValueSivp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC9hashValueSivg",
+                    "mangledName": "$s12SwiftyZeroMQAAV7ContextC9hashValueSivg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Context",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Context",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC2eeoiySbAD_ADtFZ",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC2eeoiySbAD_ADtFZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV7ContextC4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12SwiftyZeroMQAAV7ContextC4hash4intoys6HasherVz_tF",
+                "moduleName": "SwiftyZeroMQ",
+                "implicit": true,
+                "isOpen": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:12SwiftyZeroMQAAV7ContextC",
+            "mangledName": "$s12SwiftyZeroMQAAV7ContextC",
+            "moduleName": "SwiftyZeroMQ",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SocketSendRecvOption",
+            "printedName": "SocketSendRecvOption",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketSendRecvOption",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                        "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketSendRecvOption",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                            "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO4noneyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO4noneyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "dontWait",
+                "printedName": "dontWait",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketSendRecvOption",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                        "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketSendRecvOption",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                            "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO8dontWaityA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO8dontWaityA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "sendMore",
+                "printedName": "sendMore",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketSendRecvOption",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                        "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketSendRecvOption",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                            "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO8sendMoreyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO8sendMoreyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "dontWaitSendMore",
+                "printedName": "dontWaitSendMore",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketSendRecvOption",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                        "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketSendRecvOption",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                            "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO08dontWaitE4MoreyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO08dontWaitE4MoreyA2DmF",
+                "moduleName": "SwiftyZeroMQ"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO8rawValues5Int32Vvp",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO8rawValues5Int32Vvp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO8rawValues5Int32Vvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO8rawValues5Int32Vvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "isValidRecvOption",
+                "printedName": "isValidRecvOption()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO07isValidfG0SbyF",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO07isValidfG0SbyF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketSendRecvOption",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                        "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO8rawValueADSgs5Int32V_tcfc",
+                "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO8rawValueADSgs5Int32V_tcfc",
+                "moduleName": "SwiftyZeroMQ",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO",
+            "mangledName": "$s12SwiftyZeroMQAAV20SocketSendRecvOptionO",
+            "moduleName": "SwiftyZeroMQ",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "Int32",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "PollFlags",
+            "printedName": "PollFlags",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32Vvp",
+                "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32Vvp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32Vvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32Vvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32Vvs",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32Vvs",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32VvM",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV8rawValues5Int32VvM",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV9PollFlagsV8rawValueADs5Int32V_tcfc",
+                "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV8rawValueADs5Int32V_tcfc",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "pollIn",
+                "printedName": "pollIn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV9PollFlagsV6pollInADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV6pollInADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV6pollInADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV6pollInADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pollOut",
+                "printedName": "pollOut",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV9PollFlagsV7pollOutADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV7pollOutADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV7pollOutADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV7pollOutADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pollErr",
+                "printedName": "pollErr",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV9PollFlagsV7pollErrADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV7pollErrADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV7pollErrADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV7pollErrADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV9PollFlagsV4noneADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV4noneADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV4noneADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV4noneADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12SwiftyZeroMQAAV9PollFlagsV",
+            "mangledName": "$s12SwiftyZeroMQAAV9PollFlagsV",
+            "moduleName": "SwiftyZeroMQ",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "OptionSet",
+                "printedName": "OptionSet",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Element",
+                    "printedName": "Element",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s9OptionSetP",
+                "mangledName": "$ss9OptionSetP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SetAlgebra",
+                "printedName": "SetAlgebra",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Element",
+                    "printedName": "Element",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s10SetAlgebraP",
+                "mangledName": "$ss10SetAlgebraP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "ExpressibleByArrayLiteral",
+                "printedName": "ExpressibleByArrayLiteral",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "ArrayLiteralElement",
+                    "printedName": "ArrayLiteralElement",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s25ExpressibleByArrayLiteralP",
+                "mangledName": "$ss25ExpressibleByArrayLiteralP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Poller",
+            "printedName": "Poller",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Poller",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Poller",
+                    "usr": "s:12SwiftyZeroMQAAV6PollerC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV6PollerCADycfc",
+                "mangledName": "$s12SwiftyZeroMQAAV6PollerCADycfc",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "register",
+                "printedName": "register(socket:flags:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6PollerC8register6socket5flagsyAB6SocketC_AB9PollFlagsVtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6PollerC8register6socket5flagsyAB6SocketC_AB9PollFlagsVtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "modify",
+                "printedName": "modify(socket:flags:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PollFlags",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6PollerC6modify6socket5flagsyAB6SocketC_AB9PollFlagsVtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6PollerC6modify6socket5flagsyAB6SocketC_AB9PollFlagsVtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "unregister",
+                "printedName": "unregister(socket:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6PollerC10unregister6socketyAB6SocketC_tKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6PollerC10unregister6socketyAB6SocketC_tKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "poll",
+                "printedName": "poll(timeout:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[SwiftyZeroMQ.SwiftyZeroMQ.Socket : SwiftyZeroMQ.SwiftyZeroMQ.PollFlags]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Socket",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                        "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PollFlags",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.PollFlags",
+                        "usr": "s:12SwiftyZeroMQAAV9PollFlagsV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6PollerC4poll7timeoutSDyAB6SocketCAB9PollFlagsVGSdSg_tKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6PollerC4poll7timeoutSDyAB6SocketCAB9PollFlagsVGSdSg_tKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:12SwiftyZeroMQAAV6PollerC",
+            "mangledName": "$s12SwiftyZeroMQAAV6PollerC",
+            "moduleName": "SwiftyZeroMQ",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ZeroMQError",
+            "printedName": "ZeroMQError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV11descriptionSSvp",
+                "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV11descriptionSSvp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV11descriptionSSvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV11descriptionSSvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "last",
+                "printedName": "last",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeroMQError",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV4lastADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV4lastADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeroMQError",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError",
+                        "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV4lastADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV4lastADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "invalidOption",
+                "printedName": "invalidOption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeroMQError",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV13invalidOptionADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV13invalidOptionADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeroMQError",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError",
+                        "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV13invalidOptionADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV13invalidOptionADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unimplemented",
+                "printedName": "unimplemented",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeroMQError",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV13unimplementedADvpZ",
+                "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV13unimplementedADvpZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeroMQError",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.ZeroMQError",
+                        "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV13unimplementedADvgZ",
+                    "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV13unimplementedADvgZ",
+                    "moduleName": "SwiftyZeroMQ",
+                    "static": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12SwiftyZeroMQAAV0B7MQErrorV",
+            "mangledName": "$s12SwiftyZeroMQAAV0B7MQErrorV",
+            "moduleName": "SwiftyZeroMQ",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Socket",
+            "printedName": "Socket",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "handle",
+                "printedName": "handle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC6handleSvSgvp",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC6handleSvSgvp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC6handleSvSgvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV6SocketC6handleSvSgvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC6handleSvSgvs",
+                    "mangledName": "$s12SwiftyZeroMQAAV6SocketC6handleSvSgvs",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC6handleSvSgvM",
+                    "mangledName": "$s12SwiftyZeroMQAAV6SocketC6handleSvSgvM",
+                    "moduleName": "SwiftyZeroMQ",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(context:type:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Context",
+                    "usr": "s:12SwiftyZeroMQAAV7ContextC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketType",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC7context4typeAdB7ContextC_AB0D4TypeOtKcfc",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC7context4typeAdB7ContextC_AB0D4TypeOtKcfc",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "connect",
+                "printedName": "connect(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC7connectyySSKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC7connectyySSKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "close",
+                "printedName": "close()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC5closeyyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC5closeyyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "bind",
+                "printedName": "bind(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC4bindyySSKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC4bindyySSKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "unbind",
+                "printedName": "unbind(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC6unbindyySSKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC6unbindyySSKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "send",
+                "printedName": "send(string:options:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketSendRecvOption",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC4send6string7optionsySS_AB0D14SendRecvOptionOtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC4send6string7optionsySS_AB0D14SendRecvOptionOtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "send",
+                "printedName": "send(data:options:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketSendRecvOption",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC4send4data7optionsy10Foundation4DataV_AB0D14SendRecvOptionOtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC4send4data7optionsy10Foundation4DataV_AB0D14SendRecvOptionOtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "sendMultipart",
+                "printedName": "sendMultipart(parts:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC13sendMultipart5partsySay10Foundation4DataVG_tKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC13sendMultipart5partsySay10Foundation4DataVG_tKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "recvMultipart",
+                "printedName": "recvMultipart()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC13recvMultipartSay10Foundation4DataVGyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC13recvMultipartSay10Foundation4DataVGyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "recvData",
+                "printedName": "recvData(bufferLength:options:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketSendRecvOption",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC8recvData12bufferLength7options10Foundation0F0VSi_AB0D14SendRecvOptionOtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC8recvData12bufferLength7options10Foundation0F0VSi_AB0D14SendRecvOptionOtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "recv",
+                "printedName": "recv(bufferLength:options:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketSendRecvOption",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketSendRecvOption",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SwiftyZeroMQAAV20SocketSendRecvOptionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC4recv12bufferLength7optionsSSSgSi_AB0D14SendRecvOptionOtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC4recv12bufferLength7optionsSSSgSi_AB0D14SendRecvOptionOtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC9hashValueSivp",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC9hashValueSivp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC9hashValueSivg",
+                    "mangledName": "$s12SwiftyZeroMQAAV6SocketC9hashValueSivg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Socket",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.Socket",
+                    "usr": "s:12SwiftyZeroMQAAV6SocketC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC2eeoiySbAD_ADtFZ",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC2eeoiySbAD_ADtFZ",
+                "moduleName": "SwiftyZeroMQ",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setSubscribe",
+                "printedName": "setSubscribe(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC12setSubscribeyySSSgKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC12setSubscribeyySSSgKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setUnsubscribe",
+                "printedName": "setUnsubscribe(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC14setUnsubscribeyySSSgKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC14setUnsubscribeyySSSgKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setAffinity",
+                "printedName": "setAffinity(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC11setAffinityyys6UInt64VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC11setAffinityyys6UInt64VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setLinger",
+                "printedName": "setLinger(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC9setLingeryys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC9setLingeryys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setRecvHighWaterMark",
+                "printedName": "setRecvHighWaterMark(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC20setRecvHighWaterMarkyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC20setRecvHighWaterMarkyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setSendHighWaterMark",
+                "printedName": "setSendHighWaterMark(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC20setSendHighWaterMarkyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC20setSendHighWaterMarkyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMulticastRate",
+                "printedName": "setMulticastRate(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC16setMulticastRateyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC16setMulticastRateyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMulticastRecoveryInterval",
+                "printedName": "setMulticastRecoveryInterval(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC28setMulticastRecoveryIntervalyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC28setMulticastRecoveryIntervalyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setSendBufferSize",
+                "printedName": "setSendBufferSize(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC17setSendBufferSizeyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC17setSendBufferSizeyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setRecvBufferSize",
+                "printedName": "setRecvBufferSize(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC17setRecvBufferSizeyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC17setRecvBufferSizeyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setReconnectInterval",
+                "printedName": "setReconnectInterval(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC20setReconnectIntervalyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC20setReconnectIntervalyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMaxReconnectInterval",
+                "printedName": "setMaxReconnectInterval(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC23setMaxReconnectIntervalyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC23setMaxReconnectIntervalyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "curveKeyPair",
+                "printedName": "curveKeyPair()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(publicKey: Swift.String, secretKey: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC12curveKeyPairSS06publicF0_SS06secretF0tyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC12curveKeyPairSS06publicF0_SS06secretF0tyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setupCurveSecurityOnClientWithServerPublicKey",
+                "printedName": "setupCurveSecurityOnClientWithServerPublicKey(_:clientPublicKey:clientSecretKey:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC45setupCurveSecurityOnClientWithServerPublicKey_06clientlM00n6SecretM0ySS_S2StKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC45setupCurveSecurityOnClientWithServerPublicKey_06clientlM00n6SecretM0ySS_S2StKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setupCurveSecurityOnServerWithServerSecretKey",
+                "printedName": "setupCurveSecurityOnServerWithServerSecretKey(_:serverPublicKey:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC030setupCurveSecurityOnServerWithI9SecretKey_012serverPublicL0ySS_SStKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC030setupCurveSecurityOnServerWithI9SecretKey_012serverPublicL0ySS_SStKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setBacklog",
+                "printedName": "setBacklog(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC10setBacklogyys5Int32VKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC10setBacklogyys5Int32VKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getAffinity",
+                "printedName": "getAffinity()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC11getAffinitys6UInt64VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC11getAffinitys6UInt64VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getLinger",
+                "printedName": "getLinger()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC9getLingers5Int32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC9getLingers5Int32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getRecvHighWaterMark",
+                "printedName": "getRecvHighWaterMark()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC20getRecvHighWaterMarks5Int32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC20getRecvHighWaterMarks5Int32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getSendHighWaterMark",
+                "printedName": "getSendHighWaterMark()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC20getSendHighWaterMarks6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC20getSendHighWaterMarks6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getMulticastRate",
+                "printedName": "getMulticastRate()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC16getMulticastRates5Int32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC16getMulticastRates5Int32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getMulticastRecoveryInterval",
+                "printedName": "getMulticastRecoveryInterval()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC28getMulticastRecoveryIntervals5Int32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC28getMulticastRecoveryIntervals5Int32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getSendBufferSize",
+                "printedName": "getSendBufferSize()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC17getSendBufferSizes6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC17getSendBufferSizes6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getRecvBufferSize",
+                "printedName": "getRecvBufferSize()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC17getRecvBufferSizes6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC17getRecvBufferSizes6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getReconnectInterval",
+                "printedName": "getReconnectInterval()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC20getReconnectIntervals6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC20getReconnectIntervals6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getMaxReconnectInterval",
+                "printedName": "getMaxReconnectInterval()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC23getMaxReconnectIntervals6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC23getMaxReconnectIntervals6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getBacklog",
+                "printedName": "getBacklog()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC10getBacklogs6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC10getBacklogs6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getFileDescriptor",
+                "printedName": "getFileDescriptor()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC17getFileDescriptors6UInt32VyKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC17getFileDescriptors6UInt32VyKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setIntegerSocketOption",
+                "printedName": "setIntegerSocketOption(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC010setIntegerD6Optionyys5Int32V_AGtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC010setIntegerD6Optionyys5Int32V_AGtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setUnsignedIntegerSocketOption",
+                "printedName": "setUnsignedIntegerSocketOption(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC018setUnsignedIntegerD6Optionyys5Int32V_s6UInt64VtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC018setUnsignedIntegerD6Optionyys5Int32V_s6UInt64VtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setStringSocketOption",
+                "printedName": "setStringSocketOption(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC09setStringD6Optionyys5Int32V_SSSgtKF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC09setStringD6Optionyys5Int32V_SSSgtKF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12SwiftyZeroMQAAV6SocketC4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12SwiftyZeroMQAAV6SocketC4hash4intoys6HasherVz_tF",
+                "moduleName": "SwiftyZeroMQ",
+                "implicit": true,
+                "isOpen": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:12SwiftyZeroMQAAV6SocketC",
+            "mangledName": "$s12SwiftyZeroMQAAV6SocketC",
+            "moduleName": "SwiftyZeroMQ",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SocketType",
+            "printedName": "SocketType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "request",
+                "printedName": "request",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO7requestyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO7requestyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "reply",
+                "printedName": "reply",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO5replyyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO5replyyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "dealer",
+                "printedName": "dealer",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO6dealeryA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO6dealeryA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "router",
+                "printedName": "router",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO6routeryA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO6routeryA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "publish",
+                "printedName": "publish",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO7publishyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO7publishyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "subscribe",
+                "printedName": "subscribe",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO9subscribeyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO9subscribeyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "xpublish",
+                "printedName": "xpublish",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO8xpublishyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO8xpublishyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "xsubscribe",
+                "printedName": "xsubscribe",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO10xsubscribeyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO10xsubscribeyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "push",
+                "printedName": "push",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO4pushyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO4pushyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pull",
+                "printedName": "pull",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO4pullyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO4pullyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pair",
+                "printedName": "pair",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO4pairyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO4pairyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stream",
+                "printedName": "stream",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type) -> SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SocketType",
+                            "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO6streamyA2DmF",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO6streamyA2DmF",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO8rawValues5Int32Vvp",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO8rawValues5Int32Vvp",
+                "moduleName": "SwiftyZeroMQ",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12SwiftyZeroMQAAV10SocketTypeO8rawValues5Int32Vvg",
+                    "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO8rawValues5Int32Vvg",
+                    "moduleName": "SwiftyZeroMQ",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketType",
+                        "printedName": "SwiftyZeroMQ.SwiftyZeroMQ.SocketType",
+                        "usr": "s:12SwiftyZeroMQAAV10SocketTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SwiftyZeroMQAAV10SocketTypeO8rawValueADSgs5Int32V_tcfc",
+                "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO8rawValueADSgs5Int32V_tcfc",
+                "moduleName": "SwiftyZeroMQ",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12SwiftyZeroMQAAV10SocketTypeO",
+            "mangledName": "$s12SwiftyZeroMQAAV10SocketTypeO",
+            "moduleName": "SwiftyZeroMQ",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "Int32",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12SwiftyZeroMQAAV",
+        "mangledName": "$s12SwiftyZeroMQAAV",
+        "moduleName": "SwiftyZeroMQ",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyZeroMQ",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Context.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5507,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Context.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6106,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Context.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6396,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Context.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6690,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Context.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7939,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Context.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketSendRecvOption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketSendRecvOption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketSendRecvOption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 471,
+      "length": 16,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Poller.swift",
+      "kind": "Array",
+      "offset": 797,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Socket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4738,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/Socket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5733,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3445,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4322,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6029,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6731,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7151,
+      "length": 9,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7582,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8000,
+      "length": 10,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8761,
+      "length": 4,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9089,
+      "length": 4,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9904,
+      "length": 4,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/faiqkhan\/Local Projects\/MyGitHub\/SwiftyZeroMQ\/Sources\/SocketType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11706,
+      "length": 6,
+      "value": "11"
+    }
+  ]
+}
