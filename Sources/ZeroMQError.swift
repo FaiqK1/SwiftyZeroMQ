@@ -5,7 +5,7 @@
 // Please see the accompanying LICENSE file for the full text of the license.
 //
 
-extension SZeroMQ {
+extension SwiftyZMQ {
 
     /**
      This provides a clean way to get the ZMQ library errors. This is usually

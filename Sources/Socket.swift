@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension SZeroMQ {
+extension SwiftyZMQ {
 
     /**
         This represents a ZeroMQ socket that is associated with a context
@@ -469,7 +469,7 @@ extension SZeroMQ {
           Int, Int64 or UInt64
          */
         private func setValueOption<T>(_ name: Int32, _ value: T) throws {
-            let pointer = SZeroMQ.Socket.pointerTo(value)
+            let pointer = SwiftyZMQ.Socket.pointerTo(value)
             try self.setOption(name, pointer, MemoryLayout<T>.size)
         }
       
@@ -504,7 +504,7 @@ extension SZeroMQ {
           _ valueLength : Int) throws
         {
             if zmq_setsockopt(self.handle, name, value, valueLength) < 0 {
-                throw SZeroMQ.ZeroMQError.last
+                throw SwiftyZMQ.ZeroMQError.last
             }
         }
 
@@ -523,7 +523,7 @@ extension SZeroMQ {
             let optLen = UnsafeMutablePointer(&sz)
 
             if zmq_getsockopt(self.handle, name, pointer, optLen) < 0 {
-                throw SZeroMQ.ZeroMQError.last
+                throw SwiftyZMQ.ZeroMQError.last
             }
             return pointer.move()
         }

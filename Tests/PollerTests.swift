@@ -13,7 +13,7 @@ class PollerTests: XCTestCase {
 
     func testRequestReply() throws {
         // Context
-        let context    = try SZeroMQ.Context()
+        let context    = try SwiftyZMQ.Context()
 
         // Replier socket
         let replier    = try context.socket(.reply)
@@ -27,30 +27,30 @@ class PollerTests: XCTestCase {
         usleep(250)
 
         // Register requester and replier sockets in a new poller object
-        let poller = SZeroMQ.Poller()
+        let poller = SwiftyZMQ.Poller()
         try poller.register(socket: replier,   flags: [.pollIn, .pollOut])
         try poller.register(socket: requestor, flags: [.pollIn, .pollOut])
 
         // Replier should initially be in .none and requestor in .pollIn
         var socks = try poller.poll()
-        XCTAssertEqual(socks[replier],   SZeroMQ.PollFlags.none)
-        XCTAssertEqual(socks[requestor], SZeroMQ.PollFlags.pollOut)
+        XCTAssertEqual(socks[replier],   SwiftyZMQ.PollFlags.none)
+        XCTAssertEqual(socks[requestor], SwiftyZMQ.PollFlags.pollOut)
 
         // Requestor should go into .none right after sending request
         try requestor.send(string: "msg1", options: .dontWait)
         socks = try poller.poll()
-        XCTAssertEqual(socks[requestor], SZeroMQ.PollFlags.none)
+        XCTAssertEqual(socks[requestor], SwiftyZMQ.PollFlags.none)
 
         // After a short wait replier should go into .pollIn
         usleep(500)
         socks = try poller.poll()
 
-        XCTAssertEqual(socks[replier], SZeroMQ.PollFlags.pollIn)
+        XCTAssertEqual(socks[replier], SwiftyZMQ.PollFlags.pollIn)
 
         // After receive, replier should go into .pollOut
         try _ = replier.recv()
         socks = try poller.poll()
-        XCTAssertEqual(socks[replier], SZeroMQ.PollFlags.pollOut)
+        XCTAssertEqual(socks[replier], SwiftyZMQ.PollFlags.pollOut)
 
         // Cleanup
         try poller.unregister(socket: replier)
@@ -59,7 +59,7 @@ class PollerTests: XCTestCase {
 
     func testPair() throws {
         // Context
-        let context = try SZeroMQ.Context()
+        let context = try SwiftyZMQ.Context()
 
         // Create two pair sockets (bind, connect)
         let s1      = try context.socket(.pair)
@@ -71,14 +71,14 @@ class PollerTests: XCTestCase {
         usleep(250)
 
         // Register pair sockets in a new poller object
-        let poller  = SZeroMQ.Poller()
+        let poller  = SwiftyZMQ.Poller()
         try poller.register(socket: s1, flags: [.pollIn, .pollOut])
         try poller.register(socket: s2, flags: [.pollIn, .pollOut])
 
         // Initially both should be in .pollOut
         var socks = try poller.poll()
-        XCTAssertEqual(socks[s1], SZeroMQ.PollFlags.pollOut)
-        XCTAssertEqual(socks[s2], SZeroMQ.PollFlags.pollOut)
+        XCTAssertEqual(socks[s1], SwiftyZMQ.PollFlags.pollOut)
+        XCTAssertEqual(socks[s2], SwiftyZMQ.PollFlags.pollOut)
 
         // Send on both, then both should enter pollIn
         try s1.send(string: "msg1")
@@ -87,15 +87,15 @@ class PollerTests: XCTestCase {
         // After a wait, both should be [.pollout, .pollIn]
         usleep(500)
         socks = try poller.poll()
-        XCTAssertEqual(socks[s1], [SZeroMQ.PollFlags.pollOut, SZeroMQ.PollFlags.pollIn])
-        XCTAssertEqual(socks[s2], [SZeroMQ.PollFlags.pollOut, SZeroMQ.PollFlags.pollIn])
+        XCTAssertEqual(socks[s1], [SwiftyZMQ.PollFlags.pollOut, SwiftyZMQ.PollFlags.pollIn])
+        XCTAssertEqual(socks[s2], [SwiftyZMQ.PollFlags.pollOut, SwiftyZMQ.PollFlags.pollIn])
 
         // Now read from both and test they are both back in .pollOut
         try _ = s1.recv()
         try _ = s2.recv()
         socks = try poller.poll()
-        XCTAssertEqual(socks[s1], SZeroMQ.PollFlags.pollOut)
-        XCTAssertEqual(socks[s2], SZeroMQ.PollFlags.pollOut)
+        XCTAssertEqual(socks[s1], SwiftyZMQ.PollFlags.pollOut)
+        XCTAssertEqual(socks[s2], SwiftyZMQ.PollFlags.pollOut)
 
         // Cleanup
         try poller.unregister(socket: s1)

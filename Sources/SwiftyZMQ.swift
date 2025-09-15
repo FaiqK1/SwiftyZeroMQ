@@ -9,7 +9,7 @@
 /**
     Utility functions are provided here such as version, capability and proxy
  */
-public struct SZeroMQ {
+public struct SwiftyZMQ {
 
     /**
         Private constructor to prevent instansiation
@@ -77,9 +77,9 @@ public struct SZeroMQ {
         socket.
      */
     public static func proxy(
-        frontend : SZeroMQ.Socket,
-        backend  : SZeroMQ.Socket,
-        capture  : SZeroMQ.Socket? = nil) throws
+        frontend : SwiftyZMQ.Socket,
+        backend  : SwiftyZMQ.Socket,
+        capture  : SwiftyZMQ.Socket? = nil) throws
     {
         let result = zmq_proxy(frontend.handle, backend.handle, capture?.handle)
         if result == -1 {

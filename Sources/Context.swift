@@ -5,7 +5,7 @@
 // Please see the accompanying LICENSE file for the full text of the license.
 //
 
-extension SZeroMQ {
+extension SwiftyZMQ {
 
     /**
         This represents a ZeroMQ context
@@ -103,7 +103,7 @@ extension SZeroMQ {
                 - type: socket type of type SocketType
             - returns: a ZeroMQ socket with the type provided
          */
-        public func socket(_ type : SZeroMQ.SocketType) throws -> Socket {
+        public func socket(_ type : SwiftyZMQ.SocketType) throws -> Socket {
             return try Socket(context: self, type: type)
         }
 
