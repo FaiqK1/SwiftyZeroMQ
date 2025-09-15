@@ -5,7 +5,7 @@
 // Please see the accompanying LICENSE file for the full text of the license.
 //
 
-extension SwiftyZeroMQ {
+extension SwiftyZMQ {
 
     /**
         An enumeration of socket send and receive options that map out to a

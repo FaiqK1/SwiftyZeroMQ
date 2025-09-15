@@ -24,7 +24,7 @@
 		04AA856F1DC9E1940026AE5E /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E511DB63BF500AD9652 /* Socket.swift */; };
 		04AA85701DC9E1940026AE5E /* SocketSendRecvOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E521DB63BF500AD9652 /* SocketSendRecvOption.swift */; };
 		04AA85711DC9E1940026AE5E /* SocketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E531DB63BF500AD9652 /* SocketType.swift */; };
-		04AA85731DC9E1940026AE5E /* SwiftyZeroMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */; };
+		04AA85731DC9E1940026AE5E /* SwiftyZMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZMQ.swift */; };
 		04AA85741DC9E1940026AE5E /* ZeroMQError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461FA0F1DC0CC82009F877A /* ZeroMQError.swift */; };
 		04AA85761DC9E2BA0026AE5E /* SwiftyZeroMQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AA85771DC9E2BA0026AE5E /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 0408D7EB1DB93C710038830A /* zmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,7 +35,7 @@
 		04AA85981DC9E66F0026AE5E /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E511DB63BF500AD9652 /* Socket.swift */; };
 		04AA85991DC9E66F0026AE5E /* SocketSendRecvOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E521DB63BF500AD9652 /* SocketSendRecvOption.swift */; };
 		04AA859A1DC9E66F0026AE5E /* SocketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E531DB63BF500AD9652 /* SocketType.swift */; };
-		04AA859B1DC9E66F0026AE5E /* SwiftyZeroMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */; };
+		04AA859B1DC9E66F0026AE5E /* SwiftyZMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZMQ.swift */; };
 		04AA859C1DC9E66F0026AE5E /* ZeroMQError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461FA0F1DC0CC82009F877A /* ZeroMQError.swift */; };
 		04AA859D1DC9E67B0026AE5E /* SwiftyZeroMQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AA859E1DC9E67B0026AE5E /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 0408D7EB1DB93C710038830A /* zmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,7 +47,7 @@
 		04AA85F91DC9EFF50026AE5E /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E511DB63BF500AD9652 /* Socket.swift */; };
 		04AA85FA1DC9EFF50026AE5E /* SocketSendRecvOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E521DB63BF500AD9652 /* SocketSendRecvOption.swift */; };
 		04AA85FB1DC9EFF50026AE5E /* SocketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E531DB63BF500AD9652 /* SocketType.swift */; };
-		04AA85FC1DC9EFF50026AE5E /* SwiftyZeroMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */; };
+		04AA85FC1DC9EFF50026AE5E /* SwiftyZMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZMQ.swift */; };
 		04AA85FD1DC9EFF50026AE5E /* ZeroMQError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461FA0F1DC0CC82009F877A /* ZeroMQError.swift */; };
 		04AA85FE1DC9EFFC0026AE5E /* SwiftyZeroMQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AA85FF1DC9EFFC0026AE5E /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = 0408D7EB1DB93C710038830A /* zmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,8 +64,9 @@
 		04D84E5B1DB63BF500AD9652 /* SocketSendRecvOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E521DB63BF500AD9652 /* SocketSendRecvOption.swift */; };
 		04D84E5C1DB63BF500AD9652 /* SocketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D84E531DB63BF500AD9652 /* SocketType.swift */; };
 		04E06A5F1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04E06A601DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */; };
+		04E06A601DB89F3E00EFC3E0 /* SwiftyZMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E06A5D1DB89F3E00EFC3E0 /* SwiftyZMQ.swift */; };
 		E925E1A91F04049500BEEC3C /* ZMQPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925E1A81F04049500BEEC3C /* ZMQPatternsTests.swift */; };
+		EB7DFFF62E7472990078EE75 /* libzmq-ios-simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7DFFF52E7472990078EE75 /* libzmq-ios-simulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,8 +127,9 @@
 		04D84E521DB63BF500AD9652 /* SocketSendRecvOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketSendRecvOption.swift; sourceTree = "<group>"; };
 		04D84E531DB63BF500AD9652 /* SocketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketType.swift; sourceTree = "<group>"; };
 		04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyZeroMQ.h; sourceTree = "<group>"; };
-		04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyZeroMQ.swift; sourceTree = "<group>"; };
+		04E06A5D1DB89F3E00EFC3E0 /* SwiftyZMQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyZMQ.swift; sourceTree = "<group>"; };
 		E925E1A81F04049500BEEC3C /* ZMQPatternsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMQPatternsTests.swift; sourceTree = "<group>"; };
+		EB7DFFF52E7472990078EE75 /* libzmq-ios-simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libzmq-ios-simulator.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042AEE9C1DDB09FB0019D27B /* libzmq-ios.a in Frameworks */,
+				EB7DFFF62E7472990078EE75 /* libzmq-ios-simulator.a in Frameworks */,
 				042181391DD89E3100F8922C /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +200,7 @@
 		042AEE971DDB09D20019D27B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				EB7DFFF52E7472990078EE75 /* libzmq-ios-simulator.a */,
 				042AEE981DDB09FB0019D27B /* libzmq-ios.a */,
 				042AEE991DDB09FB0019D27B /* libzmq-macos.a */,
 				042AEE9A1DDB09FB0019D27B /* libzmq-tvos.a */,
@@ -252,7 +256,7 @@
 				04D84E521DB63BF500AD9652 /* SocketSendRecvOption.swift */,
 				04D84E531DB63BF500AD9652 /* SocketType.swift */,
 				04E06A5C1DB89F3E00EFC3E0 /* SwiftyZeroMQ.h */,
-				04E06A5D1DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift */,
+				04E06A5D1DB89F3E00EFC3E0 /* SwiftyZMQ.swift */,
 				0461FA0F1DC0CC82009F877A /* ZeroMQError.swift */,
 				0408D7EB1DB93C710038830A /* zmq.h */,
 				04D84E371DB637E800AD9652 /* Info.plist */,
@@ -580,7 +584,7 @@
 				04AA856F1DC9E1940026AE5E /* Socket.swift in Sources */,
 				04AA85701DC9E1940026AE5E /* SocketSendRecvOption.swift in Sources */,
 				04AA85711DC9E1940026AE5E /* SocketType.swift in Sources */,
-				04AA85731DC9E1940026AE5E /* SwiftyZeroMQ.swift in Sources */,
+				04AA85731DC9E1940026AE5E /* SwiftyZMQ.swift in Sources */,
 				04AA85741DC9E1940026AE5E /* ZeroMQError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,7 +598,7 @@
 				04AA85981DC9E66F0026AE5E /* Socket.swift in Sources */,
 				04AA85991DC9E66F0026AE5E /* SocketSendRecvOption.swift in Sources */,
 				04AA859A1DC9E66F0026AE5E /* SocketType.swift in Sources */,
-				04AA859B1DC9E66F0026AE5E /* SwiftyZeroMQ.swift in Sources */,
+				04AA859B1DC9E66F0026AE5E /* SwiftyZMQ.swift in Sources */,
 				04AA859C1DC9E66F0026AE5E /* ZeroMQError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,7 +622,7 @@
 				04AA85F91DC9EFF50026AE5E /* Socket.swift in Sources */,
 				04AA85FA1DC9EFF50026AE5E /* SocketSendRecvOption.swift in Sources */,
 				04AA85FB1DC9EFF50026AE5E /* SocketType.swift in Sources */,
-				04AA85FC1DC9EFF50026AE5E /* SwiftyZeroMQ.swift in Sources */,
+				04AA85FC1DC9EFF50026AE5E /* SwiftyZMQ.swift in Sources */,
 				04AA85FD1DC9EFF50026AE5E /* ZeroMQError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,7 +642,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D84E571DB63BF500AD9652 /* Context.swift in Sources */,
-				04E06A601DB89F3E00EFC3E0 /* SwiftyZeroMQ.swift in Sources */,
+				04E06A601DB89F3E00EFC3E0 /* SwiftyZMQ.swift in Sources */,
 				04D84E5B1DB63BF500AD9652 /* SocketSendRecvOption.swift in Sources */,
 				04D84E591DB63BF500AD9652 /* Poller.swift in Sources */,
 				0461FA101DC0CC82009F877A /* ZeroMQError.swift in Sources */,
@@ -1027,6 +1031,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.azawawi.SwiftyZeroMQ;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -1054,6 +1059,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.azawawi.SwiftyZeroMQ;
 				PRODUCT_NAME = "$(PROJECT_NAME)";

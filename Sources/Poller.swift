@@ -5,7 +5,7 @@
 // Please see the accompanying LICENSE file for the full text of the license.
 //
 
-extension SwiftyZeroMQ {
+extension SwiftyZMQ {
 
     /**
         This represents the poll flags and is used in `register` and `modify`
